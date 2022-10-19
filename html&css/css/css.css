@@ -1,0 +1,11 @@
+body {
+  background-color: #3F68BF
+}
+h1 {color: yellow;
+  text-align: left;}
+h2 {color:blue;}
+.likes {color:purple}
+.songs{text-align:left;}
+  table {
+  border: 2px solid green 
+}

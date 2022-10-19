@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function correctAge() {
+            console.log(document.getElementById("age").value)
+            let inputAge = Number(document.getElementById("age").value);
+    if (inputAge >= 0 && inputAge <=120) {
+        return document.getElementById("print").innerHTML= "This is right age"
+    }
+    else {
+        return document.getElementById("print").innerHTML = "Age is not correct"
+    }
+};
+
+    </script>
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age">
+    <button type="button" onclick="correctAge()">Check Age</button><br>
+    <p id="print"></p>
+
+
+</body>
+
+</html>

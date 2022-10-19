@@ -1,0 +1,41 @@
+body {
+    padding: 1%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    column-span: all;
+}
+.left,
+.right,
+.center {
+    float: left;
+    color: white;
+    padding: 10px;
+    height: 500px;
+
+}
+
+.left {
+    background-color: rgb(141, 92, 84);
+    width: 250px;
+}
+
+.right {
+    background-color: rgb(104, 178, 178);
+    width: 250px;
+}
+
+.center {
+    background-image: url("../vectorImage/plexes-numbers-code-cyberspace-rendering-mjhn2mwqb8xzjg96.jfif");
+    width: 960px;
+    column-count: 2;
+
+}
+
+.container::after {
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}

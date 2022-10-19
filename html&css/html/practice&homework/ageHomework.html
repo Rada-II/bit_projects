@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="demo"></p>
+
+</body>
+<script>
+function correctAge( Age) {
+    if(Age < 0) {
+        str = "This age has negative value";
+    }
+    else if(Age > 120) {
+        str = "This age is greater than 120";
+    }
+    else str = "Correct age";
+    return str;
+};
+</script>
+document.getElementById("demo").innerHTML = correctAge(35);
+</html>

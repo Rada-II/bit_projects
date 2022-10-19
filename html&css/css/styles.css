@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://images.wallpapersden.com/image/download/ocean-rock-4k_bWprZW6UmZqaraWkpJRpbGdurWhmaW0.jpg");
+    height: 100vh;
+        
+
+}
+
+h1 {
+    color: rgb(19, 92, 116);
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(35, 44, 35);
+    font-size: 40px; 
+
+}
+
+p {
+    color:rgb(33, 114, 51);
+    text-align: justify;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(21, 12, 42);
+    font-size: 25px;
+    font-family: cursive;
+}

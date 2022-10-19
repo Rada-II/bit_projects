@@ -1,0 +1,17 @@
+.columnsLeft {
+    float: left;
+    width: 360px;
+    background-color: rgb(106, 158, 106);
+  }
+  .columnsRight {
+    float: left;
+    width: calc(100% - 360px);
+    background-color: rgb(81, 129, 170);
+  }
+  .heading{
+    text-align: center;
+  }
+
+
+
+

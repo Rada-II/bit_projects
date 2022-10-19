@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Document</title>
+    <style>
+        body {
+        padding: 1%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    h1 {
+        column-span: all;
+    }
+    .left,
+    .right,
+    .center {
+        float: left;
+        color: white;
+        padding: 10px;
+        height: 500px;
+    
+    }
+    
+    .left {
+        background-color: rgb(141, 92, 84);
+        width: 250px;
+    }
+    
+    .right {
+        background-color: rgb(104, 178, 178);
+        width: 250px;
+    }
+    
+    .center {
+        background-image: url("../vectorImage/plexes-numbers-code-cyberspace-rendering-mjhn2mwqb8xzjg96.jfif");
+        width: 960px;
+        column-count: 2;
+    
+    }
+    
+    .container::after {
+        clear: both;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    p.rtl {
+  direction: rtl;
+}
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Three Column grid example</h1>
+    <div class="container">
+        <div class="left">
+            <h1>Left column</h1>
+        </div>
+        <div class="center">
+            <h1 style="text-align:center;">Main title</h1>
+            <p class="rtl">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Temporibus maiores accusantium voluptate nemo? Ipsam aut atque veritatis hic vero quod culpa
+                ipsum
+                dignissimos aliquid sint.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Temporibus maiores accusantium voluptate nemo? Ipsam aut atque veritatis hic vero quod culpa
+                ipsum
+                dignissimos aliquid sint.</p>
+            <p class="rtl">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Temporibus maiores accusantium voluptate nemo? Ipsam aut atque veritatis hic vero quod culpa
+                ipsum
+                dignissimos aliquid sint.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Temporibus maiores accusantium voluptate nemo? Ipsam aut atque veritatis hic vero quod culpa
+                ipsum
+                dignissimos aliquid sint.</p>
+        </div>
+        <div class="right">
+            <h1>Right column</h1>
+        </div>
+    </div>
+</body>
+
+</html>
