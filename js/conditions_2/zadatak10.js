@@ -1,4 +1,4 @@
-let a =0.5;
+let a = 0.5;
 let result = "";
 if (a < 20) {
     result = "-";
