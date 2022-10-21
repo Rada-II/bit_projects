@@ -1,26 +1,29 @@
 //zadatak 2.//
-a=-5;
-b=-2;
-c=-6
-d=0;
-f=-1;
+var a = -5;
+var b = -2;
+var c = -6
+var d = 0;
+var f = -1;
+var result = "";
 if(a>b && a>c && a>d && a>f)
 {
-    console.log(a);
+    result = a;
 }
 else if(b>a && b>c && b>d && b>f)
 {
-    console.log(b);
+    result = b;
 }
 else if (c>a && c>b && c>d && c>f)
 {
-    console.log(c);
+    result = c;
 }
 else if (d>a && d>c && d>b && d>f)
 {
-    console.log(d);
+    result = d;
 }
 else
 {
-    console.log(f);
+    result = f;
 }
+
+console.log(result);

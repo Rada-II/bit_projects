@@ -1,4 +1,4 @@
-//zadatak 5.//
+//zadatak 5.
 var x = 5;
 var y = 7;
 var result = '';
