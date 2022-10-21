@@ -1,11 +1,13 @@
-var a = 10;
-var b = 5;
+var a = 3;
+var b = 0;
 var c = "/";
 var result = "";
 
 
 
-if (b == 0) {
+if (b == 0 && c == "/") {
+  result = "we don't devide numbers with 0";
+  } else {
   switch (c) {
     case "+":
       result = a + b;
@@ -22,8 +24,6 @@ if (b == 0) {
     default:
      result = "eror";
   }
-} else {
-  result = "we don't devide numbers with 0";
 }
 
 console.log(result);

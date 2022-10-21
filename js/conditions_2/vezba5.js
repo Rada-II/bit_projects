@@ -1,9 +1,13 @@
-var checkNumber = 10;
+var checkNumber = 7;
+var result = "";
 
 if (typeof checkNumber === 'number') {
 
   if (checkNumber % 2 == 0) {
-    console.log(checkNumber / 2)
+    result = (checkNumber / 2)
   }
-  else console.log("x")
+  else result = ("x")
 }
+
+console.log(result);
+
