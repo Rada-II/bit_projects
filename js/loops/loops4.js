@@ -2,7 +2,7 @@ var sum = 0;
 var term = 5;
 
 for (var i = 2; i <= 2 * term; i+=2) {
-console.log(i)
+console.log("The even numbers are", i)
     //sum = sum + i;
     sum += i;  
 }

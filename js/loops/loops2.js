@@ -1,8 +1,8 @@
-var cube = 2;
+var cube = 3;
 
-for (var i = 1; i < 3; i++) {
-    
-    cube = i*i*i;  
+for (var i = 1; i < (cube + 1); i++) {
+  //console.log(i);  
+  var cubeNum = i*i*i;  
 }
 
-console.log('cube is:', cube);
+console.log('cube is:', cubeNum);

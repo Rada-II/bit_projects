@@ -1,13 +1,12 @@
 var sum = 0;
-var input = 232 ;
+var input = 248 ;
+var inpstr = input.toString()
 
-
-for (var i = 0; i <= input; i++) {
-     var a = input ;
-     if ((a) !== NaN ){
-      sum += i;
+for (var i = 0; i < inpstr.length; i++) {
+    
+      sum += Number(inpstr[i])
     }
-  }
+  
 
 console.log('Sum of digits in number', input ,'is' , sum);
 
