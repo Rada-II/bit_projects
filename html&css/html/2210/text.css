@@ -8,15 +8,15 @@ body {
     width: 500px;
   }
   
-  .first-p {
+  .firsPar {
     font-family: "Courier New";
   }
-  .second-p {
+  .seconPar {
     font-family:"IslandMoments";
-    font-style: italic;
+    font-style: oblique;
     
   }
-  .third-p {
+  .thirPar {
     font-family: impact;
   }
   
@@ -45,17 +45,17 @@ body {
   }
   
   .first-p {
-    font-family: Neue;
+    font-family: IslandMoments;
   }
   .third-p {
     font-family: Roboto;
   }
   
-  .new-first-p {
+  .newFirstPar {
     text-transform: uppercase;
     text-decoration: underline;
   }
-  .new-second-p {
+  .newSecondPar {
     text-transform: lowercase;
     text-decoration: line-through;
   }
@@ -77,14 +77,14 @@ body {
   }
   
   ul > li {
-    text-shadow: 0.1px 0.2px red;
+    text-shadow: 0.1px 0.2px rgb(8, 21, 12);
   }
   
   a:visited {
     color: black;
   }
   
-  a:focus {
+  a:link {
     color: red;
   }
   a:hover {
