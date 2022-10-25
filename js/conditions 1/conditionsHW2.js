@@ -5,8 +5,8 @@ var b = 7;
 var c = a + b;
 var d = a - b;
 var e = a * b;
-var f = a / b;
-var g = a % b;
+var f = a % b;
+var g = a / b;
 
 
-console.log("Rezultati su:", c, d, e, f, g);
+console.log("Result is:", c,",",d,",", e,",", f,",", g, ".");

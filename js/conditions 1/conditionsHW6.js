@@ -1,6 +1,6 @@
 //zadatak 6.
 let a = 13; //age iz zadatka 5.
-let b = 36; // my age
+let b = 36; 
 
 let ageDiff1 = a-b;
 let ageDiff2 = b-a;

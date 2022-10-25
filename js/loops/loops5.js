@@ -1,3 +1,5 @@
+//5.Write a code to calculate the sum of digits in a number and show that sum on screen.
+// Example: "Sum of digits in number 232 is 7"
 var sum = 0;
 var input = 248 ;
 var inpstr = input.toString()
@@ -12,6 +14,32 @@ console.log('Sum of digits in number', input ,'is' , sum);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var a="223";
+// var sum = 0;
+// for (let i = 0; i < a.length; i++)
+// {
+//     sum = sum + parseInt(a[i]);
+// }
+// console.log(sum)
 
 
 
