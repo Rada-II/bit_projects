@@ -1,4 +1,4 @@
-//Write a program to sum the multiples of 3 and 5 under 1000
+//2.Write a program to sum the multiples of 3 and 5 under 1000
 
 var sum = 0;
 for (var x = 0; x < 1000; x++)

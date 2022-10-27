@@ -7,4 +7,4 @@ for (var i = 0; i < array.length; i++){
     if(array[i] > 0)
         sum += array[i]      
   }
-  console.log(sum);
+  console.log("sum of positive elements in the array is",sum);

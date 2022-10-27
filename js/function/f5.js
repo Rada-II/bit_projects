@@ -93,6 +93,14 @@ console.log(string);
 
 
 
+
+
+
+
+
+
+
+
 // function drawSquare(a) {
 //     var star = "*";
 //     var blank = " ";

@@ -1,4 +1,4 @@
-//zadatak 4.
+//4. Write a program that finds the first element larger than minimum and prints out its value.
 var array = [4, 2, 2, -1, 6];
 var minimum = array[0];
 var minimum2 = array[0];

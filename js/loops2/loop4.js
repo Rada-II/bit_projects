@@ -1,4 +1,4 @@
-//Write a program to compute the sum and product of an array of integers.
+//4.Write a program to compute the sum and product of an array of integers.
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
 var sum = 0;
 var product = 1;

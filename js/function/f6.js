@@ -4,23 +4,23 @@ example, if values are 5, 3, and 7, the program should draw:
 * * *
 * * * * * * * /*/
 function starPattern(a, b, c) {
-      var star = "*";
-      var result1 = "";
-      var result2 = "";
-      var result3 = "";
+     
+      var result = "";
+     
     
       for (var i = 0; i < a; i++) {
-        result1 += star;
+        result += "*";
       }
-    
+      result+="\n";
       for (var j = 0; j < b; j++) {
-        result2 += star;
+        result += "*";
       }
+      result+="\n";
       for (var n = 0; n < c; n++) {
-        result3 += star;
+        result+= "*";
       }
-    
-      return "" + result1 + "\n" + result2 + "\n" + result3;
+       return result;
+      
       
     }
     var result = starPattern(5,3,7);
@@ -44,5 +44,17 @@ function starPattern(a, b, c) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    //return "" + result1 + "\n" + result2 + "\n" + result3;
 
     //`${result1}\n${result2}\n${result3}`;

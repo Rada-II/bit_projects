@@ -5,7 +5,7 @@ var sum = 0;
 var term = 5;
 
 for (var i = 2; i <= 2 * term; i+=2) {
-console.log("The even numbers are", i)
+console.log("The even number is", i)
     //sum = sum + i;
     sum += i;  
 }

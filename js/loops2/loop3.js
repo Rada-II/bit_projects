@@ -1,4 +1,4 @@
-//Write a program that will iterate from 0 to 10 and display squares of numbers.
+//3.Write a program that will iterate from 0 to 10 and display squares of numbers.
 var number = 10;
 
 for (var i = 0; i < (number + 1); i++) {
