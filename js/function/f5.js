@@ -5,10 +5,8 @@ is 5 the program should draw:
 * *
 * *
 ***** */
-
 var number = 5;
 var string = "";
-
 for (let i = 0; i < number; i++) {
     for (let j = 0; j < number; j++) {
         if (i === 0 || i === number - 1) {
@@ -21,10 +19,8 @@ for (let i = 0; i < number; i++) {
             }
         }
     }
-
     string += "\n";
 }
-
 console.log(string);
 
 
