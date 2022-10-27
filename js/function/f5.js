@@ -5,23 +5,79 @@ is 5 the program should draw:
 * *
 * *
 ***** */
-var number = 5;
-var string = "";
-for (let i = 0; i < number; i++) {
-    for (let j = 0; j < number; j++) {
-        if (i === 0 || i === number - 1) {
-            string += "*"
-        } else {
-            if (j === 0 || j === number - 1) {
-                string += "*";
-            } else {
-                string += " ";
-            }
-        }
-    }
-    string += "\n";
+function starPattern(a) {
+    var result = "";
+    
+for (var i = 0; i < a; i++) {
+ result += "*";
 }
-console.log(string);
+result+="\n";
+for(var d = 0; d < a-2; d++){
+ result+="*";
+ for(var r = 0; r < a-2; r++){
+   result+=" " ; 
+ }
+ result+="*";
+ break;
+ result+="\n";
+}
+   for (var j = 0; j < a; j++) {
+ result += "*";
+}
+result+="\n";
+return result;
+}
+var result = starPattern(5);
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var number = 5;
+// var string = "";
+// for (let i = 0; i < number; i++) {
+//     for (let j = 0; j < number; j++) {
+//         if (i === 0 || i === number - 1) {
+//             string += "*"
+//         } else {
+//             if (j === 0 || j === number - 1) {
+//                 string += "*";
+//             } else {
+//                 string += " ";
+//             }
+//         }
+//     }
+//     string += "\n";
+// }
+// console.log(string);
 
 
 

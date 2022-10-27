@@ -22,5 +22,5 @@ function starPattern(a) {
     result+="\n";
     return result;
 }
-var result = starPattern(10);
+var result = starPattern(5);
     console.log(result);
