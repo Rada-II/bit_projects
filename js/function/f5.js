@@ -6,29 +6,79 @@ is 5 the program should draw:
 * *
 ***** */
 function starPattern(a) {
-    var result = "";
-    
-for (var i = 0; i < a; i++) {
- result += "*";
-}
-result+="\n";
-for(var d = 0; d < a-2; d++){
- result+="*";
- for(var r = 0; r < a-2; r++){
-   result+=" " ; 
- }
- result+="*";
- break;
- result+="\n";
-}
-   for (var j = 0; j < a; j++) {
- result += "*";
-}
-result+="\n";
-return result;
+         var result = "";
+         
+    for (var i = 0; i < a; i++) {
+      result += "*";
+    }
+    result+="\n";
+    for(var d = 0; d < a-2; d++){
+      result+="*";
+      for(var r = 0; r < a-2; r++){
+        result+=" " ; 
+      }
+      result+="*";
+      break;
+      result+="\n";
+    }
+        for (var j = 0; j < a; j++) {
+      result += "*";
+    }
+    result+="\n";
+    return result;
 }
 var result = starPattern(5);
-console.log(result);
+    console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,6 +113,7 @@ console.log(result);
 
 // var number = 5;
 // var string = "";
+
 // for (let i = 0; i < number; i++) {
 //     for (let j = 0; j < number; j++) {
 //         if (i === 0 || i === number - 1) {
@@ -75,45 +126,15 @@ console.log(result);
 //             }
 //         }
 //     }
+
 //     string += "\n";
 // }
+
 // console.log(string);
 
 
 
 
-
-
-
-
-
-
-
-
-
-// let n = 5; // row or column count
-// // defining an empty string
-// let string = "";
-
-// for(let i = 0; i < n; i++) { // external loop
-//   for(let j = 0; j < n; j++) { // internal loop
-//     if(i === 0 || i === n - 1) {
-//       string += "*";
-//     }
-//     else {
-//       if(j === 0 || j === n - 1) {
-//         string += "*";
-//       }
-//       else {
-//         string += " ";
-//       }
-//     }
-//   }
-//   // newline after each row
-//   string += "\n";
-// }
-// // printing the string
-// console.log(string);
 
 
 
