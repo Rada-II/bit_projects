@@ -3,7 +3,7 @@
 
 var array = [1, 3, 32, "$", "g", "h", "t", "s", "c", 66, 23, "h2"];
 for (var i = 0; i < array.length; i++){
-  if (array[i] === "c") console.log(i);
+  if (array[i] === "c") console.log("index is" ,i);
 }
 
 

@@ -3,26 +3,26 @@
     // Input: e = 78, p = 3, a = [2, -2, 33, 12, 5, 8]
     // Output: [2, -2, 33, 78, 12, 5, 8]
 
-    var someArr14 = [2, -2, 33, 12, 5, 8];
+    var array = [2, -2, 33, 12, 5, 8];
     var input3 = 78;
     var position = 3;
     var someArr15 = [];
 
-    if (position > someArr14.length) {
+    if (position > array.length) {
       someArr15 = "Error";
     } else {
-      for (var ii = 0; ii < someArr14.length; ii++) {
+      for (var ii = 0; ii < array.length; ii++) {
         if (ii !== position) {
-          someArr15[ii] = someArr14[ii];
+          someArr15[ii] = array[ii];
         } else {
           someArr15[ii] = input3;
           break;
         }
       }
 
-      for (var jj = position + 1; jj <= someArr14.length; jj++) {
+      for (var jj = position + 1; jj <= array.length; jj++) {
         console.log(jj);
-        someArr15[jj] = someArr14[jj - 1];
+        someArr15[jj] = array[jj - 1];
       }
     } // end else
 

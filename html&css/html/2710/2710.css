@@ -1,0 +1,121 @@
+.firstPar {
+background-color: yellow;
+width: 400px;
+height: 500px;
+overflow: hidden;
+max-width: 300px;
+}
+.secondPar {
+background-color: red;
+width: 600px;
+height: 300px;
+overflow:scroll;
+max-height: 200px;
+}
+.thirdPar {
+    background-color: yellow;
+    border-width: thick ;
+    border-width: 5px;
+    background-color: red;
+    border-style: dashed ;
+}
+.forthPar {
+    background-color: yellow;
+    border-width: thick ;
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+}
+.fifthPar {
+    background-color: yellow;
+    border-width: thick ;
+    border-width: 5px;
+    background-color: red;
+    border-style: dashed ;
+}
+.sixthPar {
+/*background-color: rgb(137, 137, 215);*/
+background-image: linear-gradient(to top, rgba(37, 14, 68, 0), rgb(15, 31, 95));
+padding: 50px 50px 50px 50px;
+margin: 300px;
+margin: 50px 50px 50px 50px;
+}
+.seventhPar {
+/*background-color: rgb(150, 145, 181);*/
+background-image: linear-gradient(to right, rgba(18, 25, 34, 0), rgb(30, 184, 25));
+padding-top: 50px;
+margin: 400px;
+margin: auto auto;
+}
+.eighthPar {
+/*background-color: rgb(192, 121, 172);*/
+padding: 50px 50px 50px 50px;
+margin: 200px;
+margin-left: 100px;
+background-image: linear-gradient(to left, rgba(20, 143, 24, 0), rgb(94, 23, 23));
+}
+.wrapOne {
+    box-shadow:inset 0 0 20px rgb(13, 58, 51);
+    border-radius: 10px 50px 5px 8px;
+    color:rgb(35, 24, 12);
+    background-color: rgba(52, 101, 57, 0.459); ;
+}
+.wrapSecond {
+    box-shadow:inset 0 0 20px rgb(55, 10, 10);
+    border-radius: 10px 70px 25px 8px;
+    color:rgb(16, 5, 30);
+    background-color: rgba(149, 72, 107, 0.459); ;
+}
+.wrapThird {
+    box-shadow:inset 0 0 20px black;
+    border-radius: 10px 10px 15px 8px;
+    color: sandybrown;
+    background-color: royalblue;
+    display:flex;
+
+}
+.dispOne {
+    margin-right: 20px;
+    padding: 0px;
+    display: inline-block;
+    color: brown;
+    background-color: darksalmon;
+    border-radius: 20px;
+}
+.dispSec {
+    margin-right: 20px;
+    padding: 0px;
+    /*display: inline-block;*/
+    /*display: none;*/
+    color: darkblue;
+    background-color: palegreen;
+    border-radius: 10px;
+}
+.dispThir {
+    margin-right: 20px;
+    padding: 0px;
+    display: inline-block;
+    /*visibility: hidden;*/
+    background-color: rgb(70, 180, 109);
+    color: rgb(59, 51, 42);
+    font-family: Cantarell;
+    box-shadow:inset 0 0 10px black;
+    border-radius: 10px;
+
+
+}
+#titl {
+    width: 960px;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(19, 58, 90, 0.682);
+    color: rgb(8, 24, 57);
+    font-family:cursive;
+    box-shadow:inset 0 0 10px black;
+    border-radius: 20px;
+
+}

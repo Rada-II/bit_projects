@@ -54,3 +54,12 @@ for (var element in niz) {
     console.log(niz[element]);
     console.log(niz.lenght);
 }*/
+var friends = ["Igor", "Darko", "Marina"];
+
+for (let i=0; i<friends.length; i++)
+  if(friends[i] == "Marina"){
+    console.log(" Marina : Ivan je jako zgodan!");
+  }
+  else{
+    console.log("Baby mi daje pusu!");
+  }
