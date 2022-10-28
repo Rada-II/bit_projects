@@ -46,6 +46,7 @@ background-image: linear-gradient(to right, rgba(18, 25, 34, 0), rgb(30, 184, 25
 padding-top: 50px;
 margin: 400px;
 margin: auto auto;
+box-shadow: 0 0 20px rgb(13, 58, 51);
 }
 .eighthPar {
 /*background-color: rgb(192, 121, 172);*/
@@ -53,6 +54,7 @@ padding: 50px 50px 50px 50px;
 margin: 200px;
 margin-left: 100px;
 background-image: linear-gradient(to left, rgba(20, 143, 24, 0), rgb(94, 23, 23));
+box-shadow:inset 0 0 20px rgb(13, 58, 51);
 }
 .wrapOne {
     box-shadow:inset 0 0 20px rgb(13, 58, 51);
@@ -114,8 +116,12 @@ background-image: linear-gradient(to left, rgba(20, 143, 24, 0), rgb(94, 23, 23)
     padding-bottom: 50px;
     background-color: rgba(19, 58, 90, 0.682);
     color: rgb(8, 24, 57);
-    font-family:cursive;
+    font-family:"kolkerBrush";
+    font-size: 100px;
     box-shadow:inset 0 0 10px black;
     border-radius: 20px;
-
+   }
+   @font-face {
+    font-family: "kolkerBrush";
+    src: url(./fonts/KolkerBrush-Regular.ttf);
 }
