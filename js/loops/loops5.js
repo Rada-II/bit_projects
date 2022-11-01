@@ -5,7 +5,7 @@
 var number = 2354;
 var digit = 0;
 var sum=0;
-for ( ;number!=0 ;){
+for (var i=0 ;number!=0;i++ ){
   digit = number%10;
   sum+= digit;
   number = Math.floor(number/10);

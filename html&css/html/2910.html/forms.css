@@ -1,0 +1,55 @@
+#unordered {
+  list-style-type: circle;
+}
+#unored {
+  list-style-type: square;
+}
+#ordered {
+  list-style-type: upper-alpha;
+}
+#order {
+  list-style-type: upper-roman;
+}
+#unore {
+  list-style-image: url("./triangle-8.gif");
+  width: 200px;
+}
+#unor {
+  list-style-image: url("./circle-8.gif");
+  list-style-position: inside;
+  width: 200px;
+}
+table {
+    margin: 0 auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+.tableheader {
+    background-color: crimson !important;
+    color: white;
+}
+img {
+    width: 70px;
+}
+th {
+    padding: 10px 30px;
+}
+td {
+    padding: 30px 30px;
+}
+tr:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
