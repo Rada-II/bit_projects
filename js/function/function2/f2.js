@@ -14,3 +14,6 @@ console.log(stringIsBlank("My random string"));
 console.log(stringIsBlank(""));
 console.log(stringIsBlank(12));
 console.log(stringIsBlank(false));
+
+//Komentar: sta bi ti pokazalo kada bi proveravala za ovakav string: "     " ? Dobila bi da to nije prazan string :) 
+// Probaj da vidis kako bi mogla takvu situaciju da resis.
