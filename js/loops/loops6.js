@@ -2,56 +2,57 @@
 //Write a code to count all varters in a word and show that count on screen. 
 //Example: Given word is "Eclip542se". Result should be something like "There is 7 lettters in this word".
 
-var text = "Eclip.5 42sep";
-var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var result = [];
+// var text = "Eclip.5 42sep";
+// var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// var result = [];
 
-for (var i = 0; i < text.length; i++) {
-  for (var n = 0; n < alphabet.length; n++)
-    if (text[i] ==alphabet[n]) {
-      result.push(text[i]);
-      break;
-    }
-}
-console.log(`There is ${result.length} letters in this word`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var sum = 0;
-// var input = "Eclip,!542se";
-
-
-// for (var i = 0; i < input.length; i++) {
-//     var a = input[i];
-//     if (isNaN(a)){
-//       sum++;
+// for (var i = 0; i < text.length; i++) {
+//   for (var n = 0; n < alphabet.length; n++)
+//     if (text[i] ==alphabet[n]) {
+//       result.push(text[i]);
+//       break;
 //     }
-//   }
+// }
+// console.log(`There is ${result.length} letters in this word`);
 
-// console.log('There are', sum ,'varters in this word .');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var sum = 0;
+var input = "Eclip,!542se";
+
+
+for (var i = 0; i < input.length; i++) {
+    //var a = input[i];
+    if ((input[i] >= 'a' && input[i] <='z')||
+    (input[i] >= 'A' && input[i] <='Z')){
+      sum++;
+    }
+  }
+
+console.log('There are', sum ,'letters in this word .');
 
 
 

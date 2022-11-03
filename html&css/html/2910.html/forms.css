@@ -44,6 +44,61 @@ td {
 tr:hover {
     background-color: orange;
 }
+form {
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px 30px 40px;
+  background: #eee;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+form h1 {
+  color:navy;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+form span {
+  color: orange;
+}
+form p {
+  width: 100%;
+}
+input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px #ccc;
+}
+input[id=name] {
+  cursor: crosshair;
+}
+input[id=number] {
+  cursor: not-allowed;
+}
+input[type=email] {
+  cursor: move;
+}
+input[id=address] {
+  cursor: s-resize;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  cursor:grab;
+}
 
 
 
