@@ -2,7 +2,7 @@
 result should be in human numeration form. If there are no occurrences of the character,
 function should return -1.*/
 
-function lastOccurence(string, letter) {
+function lastOccurrence(string, letter) {
  // var result;
 
   for (i = string.length - 1; i > 0; i--) {
@@ -20,4 +20,4 @@ function lastOccurence(string, letter) {
 var string = "My random string";
 var letter = "c";
 
-console.log(lastOccurence(string, letter));
+console.log(lastOccurrence(string, letter));

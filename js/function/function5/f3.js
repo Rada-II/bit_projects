@@ -11,7 +11,7 @@ function minIndex(array, min) {
     if (array[i] < min) {
       index = i;
       min = array[i];
-      result = "Minimun number is " + min + " and his index is " + index;
+      result = "Minimum number is " + min + " and his index is " + index;
     }
   }
   return result;
