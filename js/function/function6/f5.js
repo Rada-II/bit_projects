@@ -4,29 +4,62 @@ ispisuie samo stringove koii u sebi ne sadrže brojeve. Primer: ulazni niz [“1
 
 //var arr=["12bb","pp", "as23s", "00sd"];
 
-function onlyLetters (input){
-  var string = input.replaceAll(" ","").replaceAll(".","").replaceAll(",","").replaceAll("?","");
-  let result = "";
-  for (let i=0;i<input.length;i++){
-    if (isNaN(input[i])){
-      result+=input[i];      
+function printNumberless(arr) {
+  var niz = [];
+  for (var i = 0; i < arr.length; i++) {
+          count = 0;
+    for (var j = 0; j < arr[i].length; j++) {
+      if ( isNaN(arr[i][j])) {
+        count++;
+        if (arr[i].length === count) {
+               niz.push(arr[i]);
+        }
+      }
     }
+  }
+  return niz;
 }
-return result;
-}
-//console.log(onlyLetters ("12bb"));
 
-function onlyLettersString (arr) {
+console.log(printNumberless([ "pp", "e3434", "sfdfs323", "sd23sdsa","asasd"]));
 
-  let result = [];
-  for (let i=0;i<arr.length;i++){
-    var tempStr = onlyLetters(arr[i]);
-    if(tempStr.length === arr[i].length)
-    result+=onlyLetters(arr[i]);
-}
-  return result
-}
-console.log(onlyLettersString (["12bb","pp", "as23s", "00sd"]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function onlyLetters (str){
+//   var input = str.replaceAll(" ","").replaceAll(".","").replaceAll(",","").replaceAll("?","");
+//   let result = "";
+//   for (let i=0;i<input.length;i++){
+//     if (isNaN(input[i])){
+//       result+=input[i];      
+//     }
+// }
+// return result;
+// }
+// console.log(onlyLetters ("1 2?b,b"));
+
+
+// function onlyLettersString (arr) {
+
+//   let result = [];
+//   for (let i=0;i<arr.length;i++){
+//     var tempStr = onlyLetters(arr[i]);
+//     if(tempStr.length === arr[i].length)
+//     result+=onlyLetters(arr[i]);
+// }
+//   return result
+// }
+// console.log(onlyLettersString (["12bb","pp", "as23s", "00sd"]));
 
             
 
