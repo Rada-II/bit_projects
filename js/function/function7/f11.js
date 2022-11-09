@@ -20,3 +20,5 @@ function reflectivePalindrome (string) {
 
   var result = (String(reflectivePalindrome("eye")));
   console.log(result);
+
+// Komentar: "a nut for a jar of tuna" je palindrom, tebi funkcija vraca da nije.
