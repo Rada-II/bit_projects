@@ -15,8 +15,9 @@ Output: true | false | true                      */
 
 
 function reflectivePalindrome (string) {
+    var string = string.replaceAll(" ",""); 
     return string === string.split('').reverse().join('');
   };
 
-  var result = (String(reflectivePalindrome("eye")));
+  var result = (String(reflectivePalindrome("a nut for a jar of tuna")));
   console.log(result);

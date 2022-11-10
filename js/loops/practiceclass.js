@@ -54,12 +54,27 @@ for (var element in niz) {
     console.log(niz[element]);
     console.log(niz.lenght);
 }*/
-var friends = ["Igor", "Darko", "Marina"];
+// var friends = ["Igor", "Darko", "Marina"];
 
-for (let i=0; i<friends.length; i++)
-  if(friends[i] == "Marina"){
-    console.log(" Marina : Ivan je jako zgodan!");
+// for (let i=0; i<friends.length; i++)
+//   if(friends[i] == "Marina"){
+//     console.log(" Marina : Ivan je jako zgodan!");
+//   }
+//   else{
+//     console.log("Baby mi daje pusu!");
+//   }
+function multiplyBy2(arr) {
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+        result.push(arr[i]*2)
+      //result[i] = arr[i] * 2;
+    }
+    console.log(
+      result.sort( (a, b) =>a-b
+      )
+    );
   }
-  else{
-    console.log("Baby mi daje pusu!");
-  }
+  multiplyBy2([13, 11, 15, 5, 6, 1, 8, 12]);
+
+
+
