@@ -6,6 +6,7 @@ elements. */
 // console.log(validNumbers); 
 var validNumbers =[15, -22, 47, 75, 63, 101]
 
+//KOMENTAR: Da je u ovom validNumbers nizu recimo string '2312', da li po tebi taj string treba da bude najveca vrednost?
  
 // var toNumbers = validNumbers.map(Number);
 
