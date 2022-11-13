@@ -14,3 +14,5 @@ function averageEl(){
 
 var func = averageEl(12, 15, 18, 120, -25, 3, 63);
 console.log(func);
+
+//KOMENTAR: Zadatak ti ne radi. Sta mislis zbog cega?
