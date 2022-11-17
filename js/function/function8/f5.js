@@ -3,6 +3,7 @@
 var array = [1, 15, 21, 3, 84, 32, 4, 5];
 
 function minMax (array) {
+  'use strict'
   var min = array[0];
   var max = array[0];
   var newArray = [];

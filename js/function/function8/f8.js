@@ -5,7 +5,7 @@ function averageEl(){
   'use strict'
   var sum = 0;
   var avg;
-  for (i = 0; i < arguments.length; i++) {
+  for ( var i = 0; i < arguments.length; i++) {
     sum += arguments[i];
   }
   avg = sum / arguments.length;

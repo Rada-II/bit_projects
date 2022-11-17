@@ -5,7 +5,7 @@ Input: e = 3, a = [5, -4.2, 18, 7]
 Output: no */
 
 var e = 3, 
-a = [5, -4.2, 18, 7]
+a = [5, -4.2,3, 18, 7]
 result = "";
 
 for (i = 0; i < a.length; i++) {

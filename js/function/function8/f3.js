@@ -1,12 +1,13 @@
 /* 3. Write a program that prints a multiplication table for numbers up to 12.*/
 
-function multiplication(number1,number2) {
+function multiplication(number) {
   var result = "";
 
-  for(var i = 1; i <= number1; i++){
-      for(var j = 1; j <= number2; j++){
+  for(var i = 1; i <= number; i++){
+      for(var j = 1; j <= number; j++){
   
-          result += i + " x " + j + " = " + (i * j) + "\t\n" //+"\n";
+          //result += i + " x " + j + " = " + (i * j) + "\t\n" //+"\n";
+          result += `${i} x ${j} = ${(i*j)}`+ "\n";
       }
   }
 
@@ -14,7 +15,7 @@ function multiplication(number1,number2) {
 }
 
 //var  = 12;
-console.log(multiplication(12,12));
+console.log(multiplication(12));
 
 
 

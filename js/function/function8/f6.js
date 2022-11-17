@@ -6,16 +6,32 @@ broj onda se medijana definiše kao aritmetička sredina dve srednje vrednosti).
 function median(array) {
 
     array.sort( function(a,b) {return a - b;} ); 
-    var half = Math.floor(array.length/2);  
-    if(array.length % 2)
+    var half = Math.floor(array.length/2);
+    let rest = array.length % 2;  
+    if(rest)
         return array[half];
     else
         return (array[half-1] + array[half]) / 2.0;
 }
 
-var array = [1,2,3,4]
+var array = [1,2,3,4,5]
 var func = median(array);
 console.log(median(array));
+
+
+
+
+
+
+
+
+
+// if(0){
+//     console.log(5>2);
+// }
+// console.log(5%2);
+// console.log( Math.floor(3));
+
 
 
 

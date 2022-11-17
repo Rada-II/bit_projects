@@ -5,7 +5,7 @@ var product = 1;
     
 for (i = 0; i < array.length; i += 1) 
    {
-    sum += array[i];
+    sum += array[i];  
     product *= array[i];
     }
 console.log('Sum : '+sum + ' Product :  ' +product); 
