@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.flex-container{
+display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+margin: 50px auto;
+height: 600px;
+border: 2px solid rgb(17, 17, 17);
+font-family: Times;
+font-size: 50px;
+}
+#one {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 34%;
+    height: 34%;
+    order: 4;
+    background: rgb(202, 204, 141);
+}
+#two {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 34%;
+    height: 33%;
+    order: 3;
+    background: rgb(143, 88, 88);
+}
+#three {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgb(83, 54, 41);
+    width: 34%;
+    height: 33%;
+    order: 2;
+}
+#four {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background:rgb(230, 136, 136);
+    width: 66%;
+    height: 100%;
+    order: 1;
+}
+</style>
+<body>
+    <div class="flex-container">
+        <div id="one">1</div>
+        <div id="two">2</div>
+        <div id="three">3</div>
+        <div id="four">4</div>  
+      </div>
+</body>
+</html>
