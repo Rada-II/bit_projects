@@ -51,6 +51,18 @@ function checkLength(password){
 
 
 
+            //  function lowercaseLetter(password){
+            //     let lowerCaseMess = 'There is no lowercase letter in your password!';
+            //     for (i=0; i<password.length;i++){
+            //         if (password[i] !== password[i].toUpperCase()){
+            //             return true;
+            //     }
+            // }
+            // console.log(lowerCaseMess);
+            // return false;
+            // }
+            //  lowercaseLetter('RHHHHHHg');    //this works
+            
 
     // function lowercaseLetter(password){
     //     let lowerCaseMess = 'There is no lowercase letter in your password!';
@@ -77,13 +89,13 @@ function checkLength(password){
     //     }
     //     }
     // }
-    // // lowercaseLetter('RADAAR');  //ne radi
+    // // lowercaseLetter('RADAAR');  
 
 
 //     function atLeastOneDigit(password){
 //         let digitMess = 'There is no digits in your password!';
 //         for(i=0;i<password.length;i++){
-//       if ((password[i]) === (password[i]).includes('0, 1, 2, 3, 4, 5, 6, 7, 8, 9')){        //zasto ovo ne radi?
+//       if ((password[i]) === (password[i]).includes('0, 1, 2, 3, 4, 5, 6, 7, 8, 9')){        
 //           return true;              
 //         } else {
 //             console.log(digitMess);
@@ -94,6 +106,20 @@ function checkLength(password){
 // }
 
 //     atLeastOneDigit('Radar1');
+
+
+// function atLeastOneDigit(password){
+//     const digits = [0,1,2,3,4,5,6,7,8,9];
+//     const atLeastOneDigitMess = 'There is no digits in your password!';
+//     for(let i = 0; i < digits.length; i++){
+//         if(password.includes(digits[i])){
+//             return true;
+//         }
+//     }
+//     console.log(atLeastOneDigitMess );
+//     return false;
+// }
+// atLeastOneDigit("ssh");  ///this works
 
 
 function atLeastOneDigit(password){
