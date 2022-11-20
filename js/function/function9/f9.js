@@ -10,6 +10,8 @@ canConcatenate([[2, 1, 3], [5, 4, 7]], [1, 2, 3, 4, 5, 6, 7]) ➞ false // Missi
 
 function testConcatenationArrays (arrays,arrays2){
     var arrays1 = [].concat.apply([], arrays);
+    arrays1.sort();
+    var tempArray2 = arrays2.sort();
 
     //console.log(arrays1);
     if (arrays1. length !== arrays2. length) return false;
@@ -24,6 +26,18 @@ console.log(testConcatenationArrays ([[1, 2, 3, 4], [5, 6], [7]],[1, 2, 3, 4, 5,
 console.log(testConcatenationArrays ([[2, 1, 3], [5, 4, 7, 6]],[7, 6, 5, 4, 3, 2, 1]));
 console.log(testConcatenationArrays ([[2, 1, 3], [5, 4, 7, 6, 7]],[1, 2, 3, 4, 5, 6, 7]));
 console.log(testConcatenationArrays ([[2, 1, 3], [5, 4, 7]],[1, 2, 3, 4, 5, 6, 7]));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
