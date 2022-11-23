@@ -4,29 +4,29 @@ Input: prograMming
 Output: progra**ing, 2 */
 
 
-// let input = "prograMming";
+let input = "prograMming";
 
-// (
-// function (string) {
-//     let newString = "";
-//     let count = 0; 
+(
+function (string) {
+    let newString = "";
+    let count = 0; 
 
-//     for(let i = 0; i < string.length; i++){
+    for(let i = 0; i < string.length; i++){
 
-//         if(string[i] === "m" || string[i] === "M"){
-//             newString += "*";
-//             count++;
+        if(string[i] === "m" || string[i] === "M"){
+            newString += "*";
+            count++;
                 
-//         }else if(string[i] !== "m" || string[i] !== "M"){
-//             newString += string[i];
-//         }
+        }else if(string[i] !== "m" || string[i] !== "M"){
+            newString += string[i];
+        }
             
            
-//     }
+    }
 
-//     console.log(newString, ", " ,count);
-// }
-// )(input);
+    console.log(newString, ", " ,count);
+}
+)(input);
 
 
 

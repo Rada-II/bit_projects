@@ -4,18 +4,131 @@ Input: 034
 Output: 28 */
 
 
-(
-    function (num) {
+
+    function filter(num) {
 
         let octalNumber = parseInt(num);
-
-        console.log(octalNumber);
+        return octalNumber;
         
     }
-    )(034);
+    filter(034);
     
 
+function calculateDecimal (number,callback){
+console.log(callback(number));
 
+}
+calculateDecimal(034,filter)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // function calculateDec() {
+    //     return function (octal) {
+    //       console.log(octal);
+    //     };
+    //   }
+    
+    //   var a = calculateDec();
+    //   a(034);
 
 
 

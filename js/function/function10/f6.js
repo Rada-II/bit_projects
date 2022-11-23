@@ -7,59 +7,180 @@ Output: Your password is invalid!
 Input: JSGuru123
 Output: Your password is cool! */
 
-
-
-function checkLength(password){
-    //let passLengthMess = "Password length must be between 6 and 24 characters!";
-    if(password.length > 6 && password.length < 24) {   
-       return true;
-   } else {
-       //console.log(passLengthMess);
-       return false;
-   }
+function successCallback(){
+    return "Your password is cool!";
+}
+function errorCallback(){
+   return "Your password is invalid!";
 }
 
+function checkPassword(password, successCallback , errorCallback) {
+    
+            if(/\d/.test(password) && password.length >6){
+                return successCallback();
+            }else{
+                return errorCallback();
+            }
 
-
-function atLeastOneDigit(password){
-    const digits = [0,1,2,3,4,5,6,7,8,9];
-    //const atLeastOneDigitMess = 'There is no digits in your password!';
-    for(let i = 0; i < digits.length; i++){
-        if(password.includes(digits[i])){
-            return true;
-        }
+    
     }
-    //console.log(atLeastOneDigitMess );
-    return false;
-}
 
 
-function validatePassword (password) {
-    let checkLengthOfPassword = checkLength(password);
-    let checkAtLeastOneDigitPassword = atLeastOneDigit(password);
-    let successCallback = "Your password is cool!" ;
-    let errorCallback = "Your password is invalid!";
+console.log(checkPassword("JSGuru123",successCallback , errorCallback));
 
-    if(checkLengthOfPassword && checkAtLeastOneDigitPassword){
+
+
+
+
+
+
+
+
+
+
+
+
+// function errorCallback(){
+//     console.log("Your password is invalid!")
+// }
+// function successCallback(){
+//     console.log("Your password is cool!")
+// }
+
+// function checkPassword(password, successCallback , errorCallback) {
+  
+//   const digits = [0,1,2,3,4,5,6,7,8,9];
+//   if(password.length < 6 ) {
+//        errorCallback();
+//  }
+//   for(let i = 0; i < digits.length; i++){
+//       if(password.includes(digits[i])){
+//           successCallback();
+//           return;
+//       }
+// }
+// errorCallback();
+// }
+// checkPassword("JSGuru123", successCallback, errorCallback);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function checkLength(password){
+//     //let passLengthMess = "Password length must be between 6 and 24 characters!";
+//     if(password.length > 6 ) {   
+//        return true;
+//    } else {
+//        console.log(passLengthMess);
+//        return false;
+//    }
+// }
+
+
+
+// function atLeastOneDigit(password){
+//     const digits = [0,1,2,3,4,5,6,7,8,9];
+//     //const atLeastOneDigitMess = 'There is no digits in your password!';
+//     for(let i = 0; i < digits.length; i++){
+//         if(password.includes(digits[i])){
+//             return true;
+//         }
+//     }
+//     //console.log(atLeastOneDigitMess );
+//     return false;
+// }
+
+
+// function validatePassword (password) {
+//     let checkLengthOfPassword = checkLength(password);
+//     let checkAtLeastOneDigitPassword = atLeastOneDigit(password);
+//     let successCallback = "Your password is cool!" ;
+//     let errorCallback = "Your password is invalid!";
+
+//     if(checkLengthOfPassword && checkAtLeastOneDigitPassword){
         
-        console.log(successCallback);
-    }else{
-        console.log(errorCallback);
-    }
+//         console.log(successCallback);
+//     }else{
+//         console.log(errorCallback);
+//     }
 
-}
+// }
 
-validatePassword("JSGuru123")
-
-
-
-//meni bas sad nije jasno da je ovo ustvari callback,zbog console.log? 
-//zato sto smo mi ovako radili vec onaj zadatak na isti ovaj nacin, pa me sad buni da je i ovo callback?
+// validatePassword("JSGuru123")
 
 
 
+// invokeAdd(
+
+//     function () { return 1; },
+    
+//     function () { return 2; }
+    
+//     );
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//console.log(checkPassword("JSGuru123",successCallback , errorCallback));
 
 
 
@@ -296,3 +417,19 @@ validatePassword("JSGuru123")
 // }, function (resp) {
 //         console.log(resp)
 // })
+
+
+
+
+// function checkPass(password, successCallback, errorCallback) {
+//     let  atLeast6 = password.length;
+//     let  atLeastOneDigit = /\d/.test(password);
+
+//     if (atLeastOneDigit && atLeast6 >= 6) {
+//       successCallback();
+//     } else {
+//       errorCallback();
+//     }
+//   }
+
+//   checkPass("JSGuru123", successCallback, errorCallback);

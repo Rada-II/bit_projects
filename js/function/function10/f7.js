@@ -10,10 +10,13 @@ function filter(){
 }
 
 //console.log([2, 8, 11, 4, 9, 3].filter(function(n){ return n%2 !== 0; }));
-console.log(filter());
+//console.log(filter());
 
 
-
+function filterElements(array, callback) {
+    console.log(callback(array));
+  }
+  filterElements([2, 8, 11, 4, 9, 3], filter);
 
 
 

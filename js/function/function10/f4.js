@@ -7,7 +7,7 @@ Output: pera.peric@gmail.com */
 (function (name, surname) {
 
     let suggestsEmail = "@gmail.com"
-    let email = name + "." + surname + suggestsEmail;
+    let email =`${name}.${surname}${suggestsEmail}`     //name + "." + surname + suggestsEmail;
     console.log(email);
     
 })("pera","peric");
